@@ -41,6 +41,7 @@ function App() {
   return (
     <div className="App">
       <div className="col">
+      <h1>Guess the Color!</h1>
         <div className="guess-me" style={{background: color}}></div>
         {answers.map(answer => (
           <button onClick={() => handleAnswerClicked(answer)} key={answer}>{answer}</button>
